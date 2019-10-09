@@ -1,0 +1,77 @@
+.sponsored-products {
+    height: 300px;
+    flex-direction: column;
+    display: flex;
+    margin: 15px 5%;
+
+    .header {
+        display: flex;
+        justify-content: center;
+        color: $gray;
+        font-weight: $bold;
+    }
+
+    .products-list {
+        display: flex;
+        flex-direction: row;
+        height: fit-content;
+        
+        .sponsored-item {
+            display: flex;
+            flex-direction: column;
+            flex: 1 1 0;
+            margin: 5px;
+            border-radius: 2%;
+            
+            .sponsor-header {
+                width: fit-content;
+                align-self: flex-end;
+                color: $white;
+                padding: 10px 5px 0 0;
+                height: 0;
+                font-weight: $bold;
+
+                .index {
+                    font-size: 26px;
+                    font-weight: 1200;
+                }
+            }
+
+            .item-description {
+                margin: auto;
+                padding: 0px 15%;
+
+                .item-content, .item-header {
+                    color: $white;
+                    display: inline-block;
+                    text-align: center;
+                    width: 100%;
+                }
+
+                .item-header {
+                    font-weight: $bold;
+                }
+            }
+        }
+        
+        .sponsored-item-single {
+            background: $gray;
+        }
+        
+        .sponsored-item-multi {
+            background: $blue;
+        }
+    }
+ }
+
+ .sponsor-slider {
+    .carousel-inner {
+        height: 250px;
+    }
+
+    .carousel-item.active {
+        position: relative;
+        margin: auto;
+        max-width: 70%;
+    }
+}
