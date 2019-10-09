@@ -3,9 +3,15 @@ import PropTypes from 'prop-types'
 
 function CategoryItem(props) {
     return (
-        <div>
-            <div><img src={props.icon} /></div>
-            <div>{props.text}</div>
+        <div className="category-item">
+            <div className="logo-container">
+                <img
+                    className="logo"
+                    src={props.icon}
+                    alt={props.text}
+                    />
+            </div>
+            <div className="label">{props.text}</div>
         </div>
     )
 }

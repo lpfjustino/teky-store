@@ -1,0 +1,18 @@
+.slider-container {
+    background: $blue;
+
+    .carousel-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 300px;
+    }
+
+    .carousel-indicators li {
+        background: transparent;
+        background-image: url(../static/icons/ic_teky_sniper.svg);
+        background-repeat: no-repeat;
+        height: 25px;
+        width: 25px;
+    }
+}

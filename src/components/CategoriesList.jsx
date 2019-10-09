@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types';
 import CategoryItem from './CategoryItem';
 
-import menu from "../static/icons/ic_Apps.svg";
+import menu from "../static/icons/ic_menu.svg";
 import ferramentas from "../static/icons/ic_produtos_ferramentas.svg";
 import eletricos from "../static/icons/ic_produtos_eletricos.svg";
 import motores from "../static/icons/ic_produtos_motores.svg";
@@ -17,7 +17,7 @@ import apps from "../static/icons/ic_Apps.svg";
 
 const Categories = props => {
     return (
-        <div>
+        <div className="categories-list">
             <CategoryItem
                 text="Ramo"
                 icon={menu}
