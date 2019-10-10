@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from "./header/Header";
 import CategoriesList from "./CategoriesList";
 import BannerSlider from "./BannerSlider";
 import SponsoredProducts from "./SponsoredProducts";
@@ -11,6 +12,7 @@ function App() {
     ]
     return (
         <div className="App">
+            <Header />
             <CategoriesList />
             <BannerSlider />
             <SponsoredProducts

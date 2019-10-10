@@ -26,14 +26,14 @@ function MultiItemSponsor({ items, index }) {
 };
 
 function SingleItemSponsor({ item, index }) {
-    return item && 
+    return (item && 
     <div className="sponsored-item sponsored-item sponsored-item-single">
         <SponsorHeader index={index} />
         <div className="item-description">
             <span className="item-header">{ item.header }</span>
             <span className="item-content">{ item.content }</span>
         </div>
-    </div> || null;
+    </div>) || null;
 }
 
 function SponsoredProducts(props) {
