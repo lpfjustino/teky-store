@@ -3,6 +3,7 @@ import Header from "./header/Header";
 import CategoriesList from "./CategoriesList";
 import BannerSlider from "./BannerSlider";
 import SponsoredProducts from "./SponsoredProducts";
+import ProductCard from './products/ProductCard';
 
 function App() {
     const products = [
@@ -18,6 +19,8 @@ function App() {
             <SponsoredProducts
                 items={ products }
                 />
+
+            <div><ProductCard /></div>
         </div>
     );
 }
