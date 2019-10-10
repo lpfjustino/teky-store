@@ -1,3 +1,4 @@
+@import "./app.scss";
 @import "./variables.scss";
 @import "./categories-list.scss";
 @import "./banner-slider.scss";
@@ -6,6 +7,7 @@
 @import "./header.scss";
 @import "~bootstrap/dist/css/bootstrap.css";
 
-* {
-    font-family: Sergoe UI;
+html, body {
+    overflow-x: hidden;
+    min-height: 100%;
 }

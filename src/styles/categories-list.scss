@@ -1,4 +1,4 @@
-.categories-list {
+.App .categories-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -7,23 +7,24 @@
     .category-item {
         display: flex;
         flex-direction: column;
-        min-width: 75px;
-        margin: 0 5px;
-        padding: 15px;
+        padding: 10px 0;
 
         .logo-container {
             display: flex;
             justify-content: center;
 
-            .logo {
-                fill: blue;
-                color: red;
+            img {
+                width: 35px;
+                height: 35px;
             }
         }
-        .label {
-            margin-top: 10px;
+        .item-label {
+            margin-top: 5px;
             text-align: center;
-            color: black;
+            color: $gray;
+            font-size: 1rem;
+            line-height: 1rem;
+            font-weight: $bold;
         }
     }
 }

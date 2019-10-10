@@ -1,13 +1,29 @@
-.header-container {
+.App .header-container {
     display: flex;
-    height: 50px;
     background: $blue;
-    padding: 10px;
     color: $white;
     justify-content: space-between;
-
+    flex-wrap: wrap;
+    
     div {
         display: flex;
+        max-height: 30px;
+    }
+    
+    .left-side-container, .middle-container, .right-side-container {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .middle-container {
+        .login-container, .partnership-container {
+            margin: 0 5%;
+        }
+    }
+
+    .right-side-container {
+        display: flex;
+        justify-content: flex-end;
     }
 
     .search-container {
@@ -15,6 +31,7 @@
         background: $white;
         border-radius: 50px;
         border-left: 1px solid $light-gray;
+        width: 100%;
 
         .search-details {
             display: flex;
@@ -23,33 +40,42 @@
             img {
                 height: 15px;
                 width: 15px;
-                margin: auto;
+                align-self: center;
             }
         }
 
-        .search-input {
-            border: 0;
+        .input-container {
+            width: 100%;
+            .search-input {
+                border: 0;
+            }
         }
 
         .search-button-container {
-            margin: 2px 5px;
+            padding: 2px 5px;
             border-left: 1px solid $light-gray;
+            width: fit-content;
+            display: flex;
+            justify-self: flex-end;
 
             img {
                 height: 20px;
                 width: 20px;
+                display: flex;
+                align-self: center;
             }
         }
     }
 
     .login-container {
-        line-height: 15px;
+        line-height: 1rem;
         display: flex;
         flex-direction: column;
+        align-self: center;
 
         span {
             display: inline-block;
-            font-size: 15px;
+            font-size: 1rem;
         }
 
         .access-account {
@@ -60,10 +86,22 @@
     .partnership-container {
         display: flex;
         flex-direction: column;
-        line-height: 15px;
+        line-height: 1rem;
 
         img {
             height: 15px;
         }
+    }
+
+    .orders-container {
+        border-left: 1px solid $white;
+        border-right: 1px solid $white;
+        padding: 0 15px;
+        display: flex;
+        align-self: center;
+    }
+
+    .cart-container {
+        margin: 0 10px;
     }
 }

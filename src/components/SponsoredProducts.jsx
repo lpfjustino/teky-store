@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types'
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Row, Col } from 'react-bootstrap';
 
 function SponsorHeader({ index }) {
     return <div className="sponsor-header">
@@ -40,14 +40,14 @@ function SponsoredProducts(props) {
     return (
         <div className="sponsored-products">
             <div className="header">PRODUTOS EM DESTAQUE</div>
-            <div className="products-list">
+            <Row className="products-list">
             {
                 props.items.map(item => item.multi
-                    ? <MultiItemSponsor items={item.products} index={item.index}/>
-                    : <SingleItemSponsor item={item} index={item.index}/>
+                    ? <Col md={4} xs={12} className="sponsored-item-container"><MultiItemSponsor items={item.products} index={item.index}/></Col>
+                    : <Col md={4} xs={12} className="sponsored-item-container"><SingleItemSponsor item={item} index={item.index}/></Col>
                     )
-                }
-            </div>
+            }
+            </Row>
         </div>
     )
 }

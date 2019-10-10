@@ -1,5 +1,6 @@
 import React from 'react'
 import CategoryItem from './CategoryItem';
+import { Row, Col } from 'react-bootstrap';
 
 import menu from "../static/icons/categories/ic_menu.svg";
 import ferramentas from "../static/icons/categories/ic_produtos_ferramentas.svg";
@@ -16,68 +17,92 @@ import apps from "../static/icons/categories/ic_Apps.svg";
 
 const Categories = () => {
     return (
-        <div className="categories-list">
-            <CategoryItem
-                text="Ramo"
-                icon={menu}
-                onClick={() => {}}
-                />
-            <CategoryItem
-                text="Ferramentas"
-                icon={ferramentas}
-                onClick={() => {}}
-                />
-            <CategoryItem
-                text="Materiais elétricos"
-                icon={eletricos}
-                onClick={() => {}}
-                />
-            <CategoryItem
-                text="Motores e bombas"
-                icon={motores}
-                onClick={() => {}}
-                />
-            <CategoryItem
-                text="Hidráulicos"
-                icon={hidraulicos}
-                onClick={() => {}}
-                />
-            <CategoryItem
-                text="EPI e EPCs"
-                icon={epi}
-                onClick={() => {}}
-                />
-            <CategoryItem
-                text="Abrasivos"
-                icon={abrasivos}
-                onClick={() => {}}
-                />
-            <CategoryItem
-                text="Fixação e vedação"
-                icon={fixacao}
-                onClick={() => {}}
-                />
-            <CategoryItem
-                text="Correias e mangueiras"
-                icon={correias}
-                onClick={() => {}}
-                />
-            <CategoryItem
-                text="Óleos, fluídos e solventes"
-                icon={oleos}
-                onClick={() => {}}
-                />
-            <CategoryItem
-                text="Rolamentos"
-                icon={rolamentos}
-                onClick={() => {}}
-                />
-            <CategoryItem
-                text="Soluções"
-                icon={apps}
-                onClick={() => {}}
-                />
-        </div>
+        <Row className="categories-list">
+            <Col md={1} sm={2} xs={3} >
+                <CategoryItem
+                    text="Ramo"
+                    icon={menu}
+                    onClick={() => {}}
+                    />
+            </Col>
+            <Col md={1} sm={2} xs={3} >
+                <CategoryItem
+                    text="Ferramentas"
+                    icon={ferramentas}
+                    onClick={() => {}}
+                    />
+            </Col>
+            <Col md={1} sm={2} xs={3} >
+                <CategoryItem
+                    text="Materiais elétricos"
+                    icon={eletricos}
+                    onClick={() => {}}
+                    />
+            </Col>
+            <Col md={1} sm={2} xs={3} >
+                <CategoryItem
+                    text="Motores e bombas"
+                    icon={motores}
+                    onClick={() => {}}
+                    />
+            </Col>
+            <Col md={1} sm={2} xs={3} >
+                <CategoryItem
+                    text="Hidráulicos"
+                    icon={hidraulicos}
+                    onClick={() => {}}
+                    />
+            </Col>
+            <Col md={1} sm={2} xs={3} >
+                <CategoryItem
+                    text="EPI e EPCs"
+                    icon={epi}
+                    onClick={() => {}}
+                    />
+            </Col>
+            <Col md={1} sm={2} xs={3} >
+                <CategoryItem
+                    text="Abrasivos"
+                    icon={abrasivos}
+                    onClick={() => {}}
+                    />
+            </Col>
+            <Col md={1} sm={2} xs={3} >
+                <CategoryItem
+                    text="Fixação e vedação"
+                    icon={fixacao}
+                    onClick={() => {}}
+                    />
+            </Col>
+            <Col md={1} sm={2} xs={3} >
+                <CategoryItem
+                    text="Correias e mangueiras"
+                    icon={correias}
+                    onClick={() => {}}
+                    />
+            </Col>
+            <Col md={1} sm={2} xs={3} >
+                <CategoryItem
+                    text="Óleos, fluídos e solventes"
+                    icon={oleos}
+                    onClick={() => {}}
+                    />
+            </Col>
+            <Col md={1} sm={2} xs={3} >
+                <CategoryItem
+                    text="Rolamentos"
+                    icon={rolamentos}
+                    onClick={() => {}}
+                    />
+            </Col>
+            <Col md={1} sm={2} xs={3} >
+                <CategoryItem
+                    text="Soluções"
+                    icon={apps}
+                    onClick={() => {}}
+                    />
+            </Col>
+        </Row>
     )
 }
 

@@ -11,7 +11,7 @@ function CategoryItem(props) {
                     alt={props.text}
                     />
             </div>
-            <div className="label">{props.text}</div>
+            <div className="item-label">{props.text}</div>
         </div>
     )
 }

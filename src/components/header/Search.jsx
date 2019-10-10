@@ -8,9 +8,9 @@ function Search(props) {
             <div className="search-details">
                 <img src={gear} />
             </div>
-            <div><input className="search-input" /></div>
+            <div className="input-container"><input className="search-input" /></div>
             <div className="search-button-container">
-                <img src={search} />
+                <img src={search} placeholder="Encontre seus produtos" />
             </div>
         </div>
     )
