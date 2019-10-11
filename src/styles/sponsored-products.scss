@@ -1,5 +1,4 @@
 .sponsored-products {
-    height: 300px;
     flex-direction: column;
     display: flex;
     margin: 15px 5%;
@@ -10,6 +9,7 @@
         color: $gray;
         font-weight: $bold;
         min-height: 15px;
+        font-size: 18px;
     }
 
     .products-list {

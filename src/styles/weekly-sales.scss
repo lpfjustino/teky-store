@@ -1,0 +1,14 @@
+.weekly-sales {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin: 15px 5%;
+
+    .header {
+        display: flex;
+        justify-content: center;
+        color: $gray;
+        min-height: 15px;
+        font-size: 18px;
+    }
+}

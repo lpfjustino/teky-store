@@ -8,7 +8,7 @@ function ProductCard(props) {
             </div>
             <div className="card-content">
                 <div className="image-container">
-                    <button className="see-product-btn">
+                    <button className="primary-btn see-product-btn">
                         VER PRODUTO
                     </button>
                 </div>
