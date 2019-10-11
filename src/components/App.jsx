@@ -5,6 +5,7 @@ import BannerSlider from "./BannerSlider";
 import SponsoredProducts from "./SponsoredProducts";
 import WeeklySales from './WeeklySales';
 import Subscription from './Subscription';
+import Footer from './footer/Footer';
 
 function App() {
     const products = [
@@ -17,13 +18,14 @@ function App() {
     return (
         <div className="App">
             <Header />
-            <CategoriesList />
+            {/* <CategoriesList />
             <BannerSlider />
             <SponsoredProducts
                 items={products}
                 />
-            <WeeklySales />
+            <WeeklySales /> */}
             <Subscription />
+            <Footer />
         </div>
     );
 }

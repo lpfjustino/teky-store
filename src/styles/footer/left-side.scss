@@ -1,0 +1,21 @@
+.left-side-container {
+    .row {
+        .instruction-column {
+            font-size: 1.4rem;
+            padding: 0;
+            vertical-align: middle;
+            text-align: center;
+            margin: auto;
+        }
+
+        .icon-column {
+            padding: 5px;
+
+            img {
+                height: 100%;
+                width: 100%;
+                margin: auto;
+            }
+        }
+    }
+}

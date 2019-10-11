@@ -9,6 +9,11 @@
 @import "./weekly-sales.scss";
 @import "./header.scss";
 @import "./subscription.scss";
+
+@import "./footer/footer.scss";
+@import "./footer/left-side.scss";
+@import "./footer/right-side.scss";
+
 @import "~bootstrap/dist/css/bootstrap.css";
 
 html, body {

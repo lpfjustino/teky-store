@@ -1,0 +1,33 @@
+<svg id="pgt_Maestro" xmlns="http://www.w3.org/2000/svg" width="34.885" height="23.257" viewBox="0 0 34.885 23.257">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f3f4;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #c6c6c6;
+      }
+
+      .cls-3 {
+        fill: #e50019;
+      }
+
+      .cls-4 {
+        fill: #0085ca;
+      }
+
+      .cls-5 {
+        fill: #5157a2;
+      }
+    </style>
+  </defs>
+  <path id="Path" class="cls-1" d="M94.678,274.96a2.916,2.916,0,0,1-2.907,2.907H62.7a2.916,2.916,0,0,1-2.907-2.907V257.518a2.916,2.916,0,0,1,2.907-2.907H91.771a2.916,2.916,0,0,1,2.907,2.907Z" transform="translate(-59.793 -254.611)"/>
+  <path id="Shape" class="cls-2" d="M91.771,254.611H62.7a2.916,2.916,0,0,0-2.907,2.907V274.96a2.916,2.916,0,0,0,2.907,2.907H91.771a2.916,2.916,0,0,0,2.907-2.907V257.518A2.916,2.916,0,0,0,91.771,254.611Zm0,.581a2.328,2.328,0,0,1,2.326,2.326V274.96a2.328,2.328,0,0,1-2.326,2.326H62.7a2.328,2.328,0,0,1-2.326-2.326V257.518a2.328,2.328,0,0,1,2.326-2.326Z" transform="translate(-59.793 -254.611)"/>
+  <g id="Group_76" data-name="Group 76" transform="translate(9.379 6.687)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-3" cx="4.974" cy="4.974" r="4.974"/>
+    <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-4" cx="4.974" cy="4.974" r="4.974" transform="translate(6.179)"/>
+    <path id="Path_179" data-name="Path 179" class="cls-5" d="M86.552,271.861a4.965,4.965,0,0,0,1.884,3.9,4.974,4.974,0,0,0,0-7.8A4.966,4.966,0,0,0,86.552,271.861Z" transform="translate(-80.373 -266.887)"/>
+  </g>
+</svg>
