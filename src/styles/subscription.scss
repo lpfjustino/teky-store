@@ -1,0 +1,15 @@
+.App .subscription-container {
+    display: flex;
+    flex-direction: row;
+    background: $blue;
+    color: $white;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: center;
+
+    .instructions {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

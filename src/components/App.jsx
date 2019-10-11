@@ -4,6 +4,7 @@ import CategoriesList from "./CategoriesList";
 import BannerSlider from "./BannerSlider";
 import SponsoredProducts from "./SponsoredProducts";
 import WeeklySales from './WeeklySales';
+import Subscription from './Subscription';
 
 function App() {
     const products = [
@@ -22,6 +23,7 @@ function App() {
                 items={products}
                 />
             <WeeklySales />
+            <Subscription />
         </div>
     );
 }
