@@ -18,12 +18,12 @@ function App() {
     return (
         <div className="App">
             <Header />
-            {/* <CategoriesList />
+            <CategoriesList />
             <BannerSlider />
             <SponsoredProducts
                 items={products}
                 />
-            <WeeklySales /> */}
+            <WeeklySales />
             <Subscription />
             <Footer />
         </div>
