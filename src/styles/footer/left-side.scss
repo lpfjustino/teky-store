@@ -1,21 +1,25 @@
 .left-side-container {
-    .row {
-        .instruction-column {
-            font-size: 1.4rem;
-            padding: 0;
-            vertical-align: middle;
-            text-align: center;
+    .instruction-column {
+        font-size: 1.5rem;
+        padding: 0;
+        vertical-align: middle;
+        text-align: center;
+        margin: auto;
+    }
+
+    .icon-column {
+        padding: 5px;
+        max-height: 50px;
+
+        img {
+            height: 100%;
+            width: 100%;
             margin: auto;
         }
+    }
 
-        .icon-column {
-            padding: 5px;
-
-            img {
-                height: 100%;
-                width: 100%;
-                margin: auto;
-            }
-        }
+    .logo-column {
+        display: flex;
+        justify-content: center;
     }
 }

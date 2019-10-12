@@ -1,5 +1,32 @@
 .right-side-container {
+    height: 100%;
+
     a {
         color: $gray;
+    }
+
+    .footer-row {
+        display: flex;
+        align-content: space-between;
+        height: fit-content;
+        margin: 15px 0;
+    }
+
+    .header {
+        margin-bottom: 10px;
+    }
+
+    .social-column {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .icon-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        img {
+            margin: 2px 2px;
+        }
     }
 }

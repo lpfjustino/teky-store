@@ -22,61 +22,61 @@ import siteBlindado from "../../static/icons/footer/security/sec_SiteBlindado.sv
 function RightSide(props) {
     return (
         <div className="right-side-container">
-            <Row>
-                <Col className="logo-column" md={3}>
+            <Row className="footer-row">
+                <Col className="social-column" md={3} xs={6}>
                     <div className="header">ATENDIMENTO</div>
                     <div><a href="#">Fale conosco</a></div>
                     <div><a href="#">Trocas e Devoluções</a></div>
                     <div><a href="#">Política de Preços</a></div>
                 </Col>
-                <Col className="logo-column" md={3}>
+                <Col className="social-column" md={3} xs={6}>
                     <div className="header">INSTITUCIONAL</div>
                     <div><a href="#">Quem somos</a></div>
                     <div><a href="#">Política de segurança</a></div>
                     <div><a href="#">Logistas Parceiros</a></div>
                 </Col>
-                <Col className="logo-column" md={3}>
+                <Col className="social-column" md={3} xs={6}>
                     <div className="header">FALE CONOSCO</div>
                     <div><a href="#">(51) 0000-0000</a></div>
                     <div><a href="#">contato@yeky.com.br</a></div>
                 </Col>
-                <Col className="logo-column" md={3}>
+                <Col className="social-column" md={3} xs={6}>
                     <div className="header">REDES SOCIAIS</div>
-                    <img src={facebook} />
-                    <img src={instagram} />
-                    <img src={whatsapp} />
-                    <img src={youtube} />
+                    <div className="icon-container social-icon-container" >
+                        <img src={facebook} />
+                        <img src={instagram} />
+                        <img src={whatsapp} />
+                        <img src={youtube} />
+                    </div>
                 </Col>
             </Row>
-            <Row>
-                <Col className="instruction-column" md={6}>
+            <Row className="footer-row">
+                <Col className="payment-column" md={6} xs={6}>
                     <Row>
                         <Col className="header">
                             FORMAS DE PAGAMENTO
                         </Col>
                     </Row>
-                    <Row>
-                        <Col md={1}><img src={visa}/></Col>
-                        <Col md={1}><img src={mastercard}/></Col>
-                        <Col md={1}><img src={americanExpress}/></Col>
-                        <Col md={1}><img src={elo}/></Col>
-                        <Col md={1}><img src={maestro}/></Col>
-                        <Col md={1}><img src={dinners}/></Col>
-                        <Col md={1}><img src={hipercard}/></Col>
-                        <Col md={1}><img src={boleto}/></Col>
-                    </Row>
+                    <div className="icon-container social-icon-container">
+                        <img src={visa} />
+                        <img src={mastercard} />
+                        <img src={americanExpress} />
+                        <img src={elo} />
+                        <img src={maestro} />
+                        <img src={dinners} />
+                        <img src={hipercard} />
+                        <img src={boleto} />
+                    </div>
                 </Col>
-                <Col className="instruction-column" md={6}>
-                    <Row>
-                        <Col className="header">
-                            SITE SEGURO
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col md={1}><img src={letsEncrypt_Square}/></Col>
-                        <Col md={1}><img src={pCI_DSS}/></Col>
-                        <Col md={1}><img src={siteBlindado}/></Col>
-                    </Row>
+                <Col className="security-column" md={6} xs={6}>
+                    <div className="header">
+                        SITE SEGURO
+                    </div>
+                    <div className="icon-container social-icon-container" >
+                        <img src={letsEncrypt_Square}/>
+                        <img src={pCI_DSS}/>
+                        <img src={siteBlindado}/>
+                    </div>
                 </Col>
             </Row>
         </div>

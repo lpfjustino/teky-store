@@ -6,10 +6,10 @@ import RightSide from "./RightSide";
 function Footer(props) {
     return (
         <Row className="footer-container">
-            <Col className="left-side" md={4}>
+            <Col className="left-side" md={3} xs={12}>
                 <LeftSide />
             </Col>
-            <Col className="right-side" md={8}>
+            <Col className="right-side" md={9} xs={12}>
                 <RightSide />
             </Col>
         </Row>

@@ -10,23 +10,23 @@ function LeftSide(props) {
     return (
         <div className="left-side-container">
             <Row>
-                <Col className="logo-column" md={12}>
-                    <img src={logoApp} />
+                <Col className="logo-column" md={6}>
+                    <img src={logoApp} xs={6} />
                 </Col>
             </Row>
             <Row>
-                <Col className="instruction-column" md={6}>
+                <Col className="instruction-column" md={6} xs={6}>
                     <div>BAIXAR O APP</div>
                 </Col>
-                <Col className="icon-column" md={6}>
+                <Col className="icon-column" md={6} xs={6}>
                     <img src={windowsStore} />
                 </Col>
             </Row>
             <Row>
-                <Col className="icon-column" md={6}>
+                <Col className="icon-column" md={6} xs={6}>
                     <img src={googlePlay} />
                 </Col>
-                <Col className="icon-column" md={6}>
+                <Col className="icon-column" md={6} xs={6}>
                     <img src={appleStore} />
                 </Col>
             </Row>
