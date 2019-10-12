@@ -1,29 +1,30 @@
 import React from 'react';
+import {
+    BrowserRouter,
+    Switch,
+    Route,
+    Link
+} from "react-router-dom";
 import Header from "./header/Header";
 import CategoriesList from "./CategoriesList";
-import BannerSlider from "./BannerSlider";
-import SponsoredProducts from "./SponsoredProducts";
-import WeeklySales from './WeeklySales';
 import Subscription from './Subscription';
 import Footer from './footer/Footer';
+import Home from './views/Home';
+import Products from './views/Products';
 
-function App() {
-    const products = [
-        { multi: true, products: [ { content: "BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS" }, { content: "BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS" }, { content: "BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS" }], index: "01"},
-        { header: "DESTAQUE PATROCINADO", content: "Opção do lojista comprar destaque p/ seus produtos", index: "01"},
-        { header: "DESTAQUE PATROCINADO", content: "Opção do lojista comprar destaque p/ seus produtos", index: "02"},
-    ]
-    
-
+function App() {   
     return (
         <div className="App">
             <Header />
             <CategoriesList />
-            <BannerSlider />
-            <SponsoredProducts
-                items={products}
-                />
-            <WeeklySales />
+
+            <BrowserRouter>
+                <Switch>
+                    <Route path="/" exact={true} component={Home} />
+                    <Route path="/products" component={Products} />
+                </Switch>
+            </ BrowserRouter>
+
             <Subscription />
             <Footer />
         </div>
