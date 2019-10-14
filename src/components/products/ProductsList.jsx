@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+import PropTypes from 'prop-types';
 import ProductCard from "./ProductCard"
 
 const getBootstrapConfig = (itemsPerRow = 4, mobileItemsPerRow = 2) => {
@@ -10,15 +11,15 @@ const getBootstrapConfig = (itemsPerRow = 4, mobileItemsPerRow = 2) => {
 }
 
 function ProductsList(props) {
-    const { itemsPerRow, mobileItemsPerRow } = props;
+    const { itemsPerRow, mobileItemsPerRow, products = [] } = props;
     const bootstrapConfig = getBootstrapConfig(itemsPerRow, mobileItemsPerRow);
     const { md, sm } = bootstrapConfig;
 
     return (
         <Row className="products-list-container">
             {
-                props.products.map(product =>
-                    <Col md={md} xs={sm} className="product-card-container">
+                products.map((product, i) =>
+                    <Col key={i} md={md} xs={sm} className="product-card-container">
                         <ProductCard />
                     </Col>)
             }
@@ -27,7 +28,9 @@ function ProductsList(props) {
 }
 
 ProductsList.propTypes = {
-
+    itemsPerRow: PropTypes.number,
+    mobileItemsPerRow: PropTypes.number,
+    products: PropTypes.array,
 }
 
 export default ProductsList

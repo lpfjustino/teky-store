@@ -14,10 +14,10 @@ function MultiItemSponsor({ items, index }) {
         <div className="slider-container sponsor-slider sponsored-item sponsored-item-multi">
             <SponsorHeader index={index} />
             <Carousel slide={false}>
-                { items && items.map(item =>
-                    (<Carousel.Item>
-                        <span className="item-header">{ item.header }</span>
-                        <span className="item-content">{ item.content }</span>
+                { items && items.map((item, i) =>
+                    (<Carousel.Item key={i}>
+                        <span key={i} className="item-header">{ item.header }</span>
+                        <span key={i} className="item-content">{ item.content }</span>
                     </Carousel.Item>)
                 )}
             </Carousel>
@@ -53,7 +53,22 @@ function SponsoredProducts(props) {
 }
 
 SponsoredProducts.propTypes = {
-    items: PropTypes.array.isRequired,
+    items: PropTypes.array,
+    index: PropTypes.string.isRequired,
+}
+
+SingleItemSponsor.propTypes = {
+    items: PropTypes.array,
+    index: PropTypes.string.isRequired,
+}
+
+MultiItemSponsor.propTypes = {
+    items: PropTypes.array,
+    index: PropTypes.string.isRequired,
+}
+
+SponsorHeader.propTypes = {
+    index: PropTypes.string.isRequired,
 }
 
 export default SponsoredProducts

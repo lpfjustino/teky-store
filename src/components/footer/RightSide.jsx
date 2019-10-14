@@ -16,8 +16,8 @@ import instagram from "../../static/icons/footer/social/btn_Social_Instagram.svg
 import whatsapp from "../../static/icons/footer/social/btn_Social_Whatsapp.svg";
 import youtube from "../../static/icons/footer/social/btn_Social_Youtube.svg";
 
-import letsEncrypt_Square from "../../static/icons/footer/security/sec_LetsEncrypt_Square.svg";
-import pCI_DSS from "../../static/icons/footer/security/sec_PCI_DSS.svg";
+import letsEncryptSquare from "../../static/icons/footer/security/sec_LetsEncrypt_Square.svg";
+import pCIDSS from "../../static/icons/footer/security/sec_PCI_DSS.svg";
 import siteBlindado from "../../static/icons/footer/security/sec_SiteBlindado.svg";
 
 function RightSide(props) {
@@ -74,8 +74,8 @@ function RightSide(props) {
                         SITE SEGURO
                     </div>
                     <div className="icon-container social-icon-container" >
-                        <img src={letsEncrypt_Square} alt="letsEncrypt_Square icon"/>
-                        <img src={pCI_DSS} alt="pCI_DSS icon"/>
+                        <img src={letsEncryptSquare} alt="letsEncryptSquare icon"/>
+                        <img src={pCIDSS} alt="pCIDSS icon"/>
                         <img src={siteBlindado} alt="siteBlindado icon"/>
                     </div>
                 </Col>
