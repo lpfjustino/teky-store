@@ -1,17 +1,14 @@
-import React from 'react'
-import ProductDetails from '../products/ProductDetails'
+import React from 'react';
+import ProductDetails from '../products/ProductDetails';
 
 function Product(props) {
-    return (
-        <div>
-            <ProductDetails />
-        </div>
-    )
+  return (
+    <div>
+      <ProductDetails />
+    </div>
+  );
 }
 
-Product.propTypes = {
+Product.propTypes = {};
 
-}
-
-export default Product
-
+export default Product;

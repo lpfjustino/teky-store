@@ -1,16 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function Orders() {
-    return (
-        <div className="orders-container">
-            Pedidos
-        </div>
-    )
+  return <div className="orders-container">Pedidos</div>;
 }
 
-Orders.propTypes = {
+Orders.propTypes = {};
 
-}
-
-export default Orders
-
+export default Orders;
