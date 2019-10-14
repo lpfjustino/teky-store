@@ -1,0 +1,36 @@
+<svg id="pgt_Mastercard" xmlns="http://www.w3.org/2000/svg" width="34.885" height="23.257" viewBox="0 0 34.885 23.257">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f3f4;
+      }
+
+      .cls-1, .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #c6c6c6;
+      }
+
+      .cls-3 {
+        fill: #f78a0b;
+      }
+
+      .cls-4 {
+        fill: #e1001a;
+      }
+
+      .cls-5 {
+        fill: #ed4815;
+      }
+    </style>
+  </defs>
+  <g id="Group_78" data-name="Group 78">
+    <path id="Path" class="cls-1" d="M167.678,224.96a2.916,2.916,0,0,1-2.907,2.907H135.7a2.916,2.916,0,0,1-2.907-2.907V207.518a2.916,2.916,0,0,1,2.907-2.907h29.071a2.916,2.916,0,0,1,2.907,2.907Z" transform="translate(-132.793 -204.611)"/>
+    <path id="Shape" class="cls-2" d="M164.771,204.611H135.7a2.916,2.916,0,0,0-2.907,2.907V224.96a2.916,2.916,0,0,0,2.907,2.907h29.071a2.916,2.916,0,0,0,2.907-2.907V207.518A2.916,2.916,0,0,0,164.771,204.611Zm0,.581a2.328,2.328,0,0,1,2.326,2.326V224.96a2.328,2.328,0,0,1-2.326,2.326H135.7a2.328,2.328,0,0,1-2.326-2.326V207.518a2.328,2.328,0,0,1,2.326-2.326Z" transform="translate(-132.793 -204.611)"/>
+    <circle id="Oval" class="cls-3" cx="5" cy="5" r="5" transform="translate(15.507 6.636)"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-4" cx="5" cy="5" r="5" transform="translate(9.379 6.622)"/>
+    <path id="Path_180" data-name="Path 180" class="cls-5" d="M159.464,221.763a4.992,4.992,0,0,0,1.926,3.956,5,5,0,0,0,.019-7.9A4.985,4.985,0,0,0,159.464,221.763Z" transform="translate(-143.957 -210.139)"/>
+  </g>
+</svg>

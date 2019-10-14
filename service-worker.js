@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/teky-store/precache-manifest.21cf5754a196e0b3877e47490a86438b.js"
+  "/teky-store/precache-manifest.c59b7b6b75f588f6af50b326fca6cf00.js"
 );
 
 self.addEventListener('message', (event) => {
