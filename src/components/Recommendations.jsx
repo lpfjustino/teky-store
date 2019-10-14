@@ -1,25 +1,15 @@
 import React from 'react';
 import ProductCard from './products/ProductCard';
 import {Row, Col} from 'react-bootstrap';
+import ProductsList from './products/ProductsList';
 
 function Recommendations(props) {
+  const products = [ {}, {}, {}, {} ];
+
   return (
     <div className="recommendations-container">
       <div className="header">QUEM VIU, VIU TAMBÉM</div>
-      <Row>
-        <Col md={3} xs={6}>
-          <ProductCard />
-        </Col>
-        <Col md={3} xs={6}>
-          <ProductCard />
-        </Col>
-        <Col md={3} xs={6}>
-          <ProductCard />
-        </Col>
-        <Col md={3} xs={6}>
-          <ProductCard />
-        </Col>
-      </Row>
+      <ProductsList products={products} />
       <div className="load-more-btn-container">
         <button className="primary-btn load-more-btn">CARREGAR MAIS</button>
       </div>

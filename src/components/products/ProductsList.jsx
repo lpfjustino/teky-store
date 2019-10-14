@@ -3,7 +3,7 @@ import {Row, Col} from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import ProductCard from './ProductCard';
 
-const getBootstrapConfig = (itemsPerRow = 4, mobileItemsPerRow = 2) => {
+const getBootstrapConfig = (itemsPerRow = 4, mobileItemsPerRow = 1) => {
   return {
     md: 12 / itemsPerRow,
     sm: 12 / mobileItemsPerRow,
@@ -14,6 +14,7 @@ function ProductsList(props) {
   const {itemsPerRow, mobileItemsPerRow, products = []} = props;
   const bootstrapConfig = getBootstrapConfig(itemsPerRow, mobileItemsPerRow);
   const {md, sm} = bootstrapConfig;
+  console.log(md, sm)
 
   return (
     <Row className="products-list-container">
