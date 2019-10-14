@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/teky-store/static/css/main.c3688337.chunk.css",
-    "main.js": "/teky-store/static/js/main.1d7ca675.chunk.js",
-    "main.js.map": "/teky-store/static/js/main.1d7ca675.chunk.js.map",
+    "main.js": "/teky-store/static/js/main.22e3a254.chunk.js",
+    "main.js.map": "/teky-store/static/js/main.22e3a254.chunk.js.map",
     "runtime-main.js": "/teky-store/static/js/runtime-main.401ffca0.js",
     "runtime-main.js.map": "/teky-store/static/js/runtime-main.401ffca0.js.map",
     "static/css/2.3ad05019.chunk.css": "/teky-store/static/css/2.3ad05019.chunk.css",
     "static/js/2.7c489e7d.chunk.js": "/teky-store/static/js/2.7c489e7d.chunk.js",
     "static/js/2.7c489e7d.chunk.js.map": "/teky-store/static/js/2.7c489e7d.chunk.js.map",
     "index.html": "/teky-store/index.html",
-    "precache-manifest.c59b7b6b75f588f6af50b326fca6cf00.js": "/teky-store/precache-manifest.c59b7b6b75f588f6af50b326fca6cf00.js",
+    "precache-manifest.cb18bd9bd462d554e19dd1b65e60c1f0.js": "/teky-store/precache-manifest.cb18bd9bd462d554e19dd1b65e60c1f0.js",
     "service-worker.js": "/teky-store/service-worker.js",
     "static/css/2.3ad05019.chunk.css.map": "/teky-store/static/css/2.3ad05019.chunk.css.map",
     "static/css/main.c3688337.chunk.css.map": "/teky-store/static/css/main.c3688337.chunk.css.map",
@@ -56,6 +56,6 @@
     "static/css/2.3ad05019.chunk.css",
     "static/js/2.7c489e7d.chunk.js",
     "static/css/main.c3688337.chunk.css",
-    "static/js/main.1d7ca675.chunk.js"
+    "static/js/main.22e3a254.chunk.js"
   ]
 }
