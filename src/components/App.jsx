@@ -13,7 +13,6 @@ import Products from './views/Products';
 import Product from './views/Product';
 
 function App() {
-    console.log(process.env.PUBLIC_URL);
     return (
         <div className="App">
             <BrowserRouter basename={process.env.PUBLIC_URL}>
