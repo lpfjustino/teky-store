@@ -1,0 +1,18 @@
+.products-container {
+    .sponsored-products-row {
+        margin-bottom: 50px;
+    }
+    .products-row {
+        border-bottom: 1px solid $light-gray;
+        padding-bottom: 10px;
+        
+        .load-more-btn {
+            display: flex;
+            margin: auto;
+            font-weight: bold;
+            font-size: 1.6rem;
+            padding: 5px 20px;
+        }
+    }
+}
+    

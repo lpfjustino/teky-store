@@ -1,0 +1,29 @@
+.breadcrumb-section-container {
+    display: flex;
+    align-items: center;
+    color: $light-gray;
+    font-size: 1.3rem;
+    border-bottom: 1px solid $light-gray;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+
+    .breadcrumb {
+        padding: 0;
+    }
+
+    .sorting-container{
+        display: flex;
+        margin-left: auto;
+
+        .sort-label {
+            margin-right: 10px;
+        }
+
+        select {
+            background: $white;
+            border: 0;
+            border-left: 1px solid $light-gray;
+            padding: 0 10px;
+        }
+    }
+}

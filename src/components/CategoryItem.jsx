@@ -1,17 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { NavLink } from 'react-router-dom';
 
 function CategoryItem(props) {
     return (
         <div className="category-item">
-            <div className="logo-container">
-                <img
-                    className="logo"
-                    src={props.icon}
-                    alt={props.text}
-                    />
-            </div>
-            <div className="item-label">{props.text}</div>
+            <NavLink to="/products">
+                <div className="logo-container">
+                    <img
+                        className="logo"
+                        src={props.icon}
+                        alt={props.text}
+                        />
+                </div>
+                <div className="item-label">{props.text}</div>
+            </NavLink>
         </div>
     )
 }

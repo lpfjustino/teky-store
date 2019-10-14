@@ -4,15 +4,23 @@
     color: $white;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+
     div {
         display: flex;
         max-height: 30px;
     }
-    
+
     .left-side-container, .middle-container, .right-side-container {
         margin-top: 10px;
         margin-bottom: 10px;
+
+        > div {
+            margin: 0 10px;
+        }
+
+        img {
+            height: 100%;
+        }
     }
 
     .middle-container {
@@ -49,6 +57,14 @@
             .search-input {
                 border: 0;
             }
+
+            input {
+                width: 100%;
+            }
+
+            input::placeholder {
+                padding: 0 5px;
+            }
         }
 
         .search-button-container {
@@ -79,7 +95,7 @@
         }
 
         .access-account {
-            font-weight: $bold;
+            font-weight: bold;
         }
     }
 

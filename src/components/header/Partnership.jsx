@@ -5,7 +5,7 @@ function Login() {
     return (
         <div className="partnership-container">
             <span>Venda na</span>
-            <img src={logo} />
+            <img src={logo} alt="logo icon"/>
         </div>
     )
 }

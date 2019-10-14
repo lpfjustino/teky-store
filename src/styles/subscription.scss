@@ -18,7 +18,7 @@
         flex-direction: column;
 
         #highlighted-section {
-            font-weight: $bold;
+            font-weight: bold;
         }
     }
 
@@ -38,10 +38,11 @@
     .send-btn-container {
         .send-btn {
             padding: 10px 15px;
-            font-weight: $bold;
+            font-weight: bold;
             background: $gray;
             border: 0;
             border-radius: 5px;
+            color: $white;
         }
     }
 

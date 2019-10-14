@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { Row, Col } from 'react-bootstrap';
 import appleStore from "../../static/icons/footer/btn_AppleStore.svg";
 import googlePlay from "../../static/icons/footer/btn_GooglePlay.svg";
@@ -11,7 +10,7 @@ function LeftSide(props) {
         <div className="left-side-container">
             <Row>
                 <Col className="logo-column" md={6}>
-                    <img src={logoApp} xs={6} />
+                    <img src={logoApp} xs={6} alt="logoApp icon"/>
                 </Col>
             </Row>
             <Row>
@@ -19,15 +18,15 @@ function LeftSide(props) {
                     <div>BAIXAR O APP</div>
                 </Col>
                 <Col className="icon-column" md={6} xs={6}>
-                    <img src={windowsStore} />
+                    <img src={windowsStore} alt="windowsStore icon"/>
                 </Col>
             </Row>
             <Row>
                 <Col className="icon-column" md={6} xs={6}>
-                    <img src={googlePlay} />
+                    <img src={googlePlay} alt="googlePlay icon"/>
                 </Col>
                 <Col className="icon-column" md={6} xs={6}>
-                    <img src={appleStore} />
+                    <img src={appleStore} alt="appleStore icon"/>
                 </Col>
             </Row>
         </div>

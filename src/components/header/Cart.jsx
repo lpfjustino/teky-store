@@ -4,7 +4,7 @@ import cart from "../../static/icons/local_grocery_store.svg";
 function Cart() {
     return (
         <div className="cart-container">
-            <img src={cart} />
+            <img src={cart} alt="cart icon" />
         </div>
     )
 }

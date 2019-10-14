@@ -1,0 +1,121 @@
+.product-details-container {
+    height: fit-content;
+    
+    .product-details {
+        padding: 20px 0;
+        color: $light-gray;
+        font-size: 1.4rem;
+
+        .product-info-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .title {
+            font-size: 2rem;
+            color: $gray;
+            font-weight: bold;
+        }
+
+        .ref {
+            font-size: 1.2rem;
+        }
+
+        .current-price {
+            color: $gray;
+            font-size: 2.2rem;
+            font-weight: bold;
+        }
+    }
+
+    .buyout-section {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid $light-gray;
+
+        .buyout-btn {
+            font-size: 1.8rem;
+            padding: 5px 25px;
+        }
+    }
+
+    .boleto-section {
+        display: flex;
+        height: 30px;
+
+        .price {
+            font-size: 1.6rem;
+            line-height: 1.6rem;
+            font-weight: bold;
+        }
+
+        .instructions {
+            font-size: 1.4rem;
+            line-height: 1.4rem;
+        }
+
+        .image-container {
+            height: 100%;
+            margin-right: 10px;
+            img {
+                height: 100%;
+            }
+        }
+    }
+
+    .images-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        div {
+            display: flex;
+            height: 65px;
+            width: 65px;
+            border: 1px solid $light-gray;
+            margin: auto;
+            color: $light-gray;
+            align-items: center;
+            justify-items: center;
+            text-align: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+
+    }
+
+    .selected-image-container {
+        .selected-image {
+            width: 300px;
+            height: 300px;
+            border: 1px solid $light-gray;
+            border-radius: 10px;
+            position: relative;
+        }
+    }
+
+    .cep-container {
+        display: flex;
+        .input-container {
+            display: flex;
+            border: 1px solid $light-gray;
+            max-height: 40px;
+            margin: 5px;
+
+            .calc-btn {
+                border: 0;
+                background-color: $gray;
+                border-radius: 5px;
+                color: $white;
+                font-size: 1.3rem;
+                padding: 5px 15px;
+                margin: 5px;
+            }
+
+            input {
+                border: 0;
+                margin: 0 10px;
+            }
+        }
+    }
+}

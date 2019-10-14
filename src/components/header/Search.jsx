@@ -6,13 +6,13 @@ function Search(props) {
     return (
         <div className="search-container">
             <div className="search-details">
-                <img src={gear} />
+                <img src={gear} alt="gear icon" />
             </div>
             <div className="input-container">
                 <input className="search-input"  placeholder="Encontre seus produtos" />
             </div>
             <div className="search-button-container">
-                <img src={search} />
+                <img src={search} alt="search icon" />
             </div>
         </div>
     )

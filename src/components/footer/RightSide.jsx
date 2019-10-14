@@ -1,5 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 import visa from "../../static/icons/footer/payment/pgt_Visa.svg";
 import mastercard from "../../static/icons/footer/payment/pgt_Mastercard.svg";
@@ -25,28 +26,28 @@ function RightSide(props) {
             <Row className="footer-row">
                 <Col className="social-column" md={3} xs={6}>
                     <div className="header">ATENDIMENTO</div>
-                    <div><a href="#">Fale conosco</a></div>
-                    <div><a href="#">Trocas e Devoluções</a></div>
-                    <div><a href="#">Política de Preços</a></div>
+                    <div><NavLink to="/">Fale conosco</NavLink></div>
+                    <div><NavLink to="/">Trocas e Devoluções</NavLink></div>
+                    <div><NavLink to="/">Política de Preços</NavLink></div>
                 </Col>
                 <Col className="social-column" md={3} xs={6}>
                     <div className="header">INSTITUCIONAL</div>
-                    <div><a href="#">Quem somos</a></div>
-                    <div><a href="#">Política de segurança</a></div>
-                    <div><a href="#">Logistas Parceiros</a></div>
+                    <div><NavLink to="/">Quem somos</NavLink></div>
+                    <div><NavLink to="/">Política de segurança</NavLink></div>
+                    <div><NavLink to="/">Logistas Parceiros</NavLink></div>
                 </Col>
                 <Col className="social-column" md={3} xs={6}>
                     <div className="header">FALE CONOSCO</div>
-                    <div><a href="#">(51) 0000-0000</a></div>
-                    <div><a href="#">contato@yeky.com.br</a></div>
+                    <div><NavLink to="/">(51) 0000-0000</NavLink></div>
+                    <div><NavLink to="/">contato@yeky.com.br</NavLink></div>
                 </Col>
                 <Col className="social-column" md={3} xs={6}>
                     <div className="header">REDES SOCIAIS</div>
                     <div className="icon-container social-icon-container" >
-                        <img src={facebook} />
-                        <img src={instagram} />
-                        <img src={whatsapp} />
-                        <img src={youtube} />
+                        <img src={facebook} alt="facebook icon"/>
+                        <img src={instagram} alt="instagram icon"/>
+                        <img src={whatsapp} alt="whatsapp icon"/>
+                        <img src={youtube} alt="youtube icon"/>
                     </div>
                 </Col>
             </Row>
@@ -58,14 +59,14 @@ function RightSide(props) {
                         </Col>
                     </Row>
                     <div className="icon-container social-icon-container">
-                        <img src={visa} />
-                        <img src={mastercard} />
-                        <img src={americanExpress} />
-                        <img src={elo} />
-                        <img src={maestro} />
-                        <img src={dinners} />
-                        <img src={hipercard} />
-                        <img src={boleto} />
+                        <img src={visa}  alt="visa icon"/>
+                        <img src={mastercard}  alt="mastercard icon"/>
+                        <img src={americanExpress}  alt="americanExpress icon"/>
+                        <img src={elo}  alt="elo icon"/>
+                        <img src={maestro}  alt="maestro icon"/>
+                        <img src={dinners}  alt="dinners icon"/>
+                        <img src={hipercard}  alt="hipercard icon"/>
+                        <img src={boleto}  alt="boleto icon"/>
                     </div>
                 </Col>
                 <Col className="security-column" md={6} xs={6}>
@@ -73,9 +74,9 @@ function RightSide(props) {
                         SITE SEGURO
                     </div>
                     <div className="icon-container social-icon-container" >
-                        <img src={letsEncrypt_Square}/>
-                        <img src={pCI_DSS}/>
-                        <img src={siteBlindado}/>
+                        <img src={letsEncrypt_Square} alt="letsEncrypt_Square icon"/>
+                        <img src={pCI_DSS} alt="pCI_DSS icon"/>
+                        <img src={siteBlindado} alt="siteBlindado icon"/>
                     </div>
                 </Col>
             </Row>

@@ -27,55 +27,46 @@
 
         .title {
             font-size: 14px;
-            font-weight: $bold;
+            font-weight: bold;
             text-align: center;
-            color: $black;
-        }
-
-        .old-price {
-            text-decoration: line-through;
-        }
-
-        .current-price {
-            font-size: 14px;
-            font-weight: $bold;
-            width: 80%;
-            text-align: center;
-            border-bottom: 1px solid $light-gray;
             color: $black;
         }
     }
+}
+
+.old-price {
+    text-decoration: line-through;
+}
+
+.card-badge {
+    position: absolute;
+    right: 0;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    height: 75px;
     
-    .card-badge {
-        position: absolute;
-        right: 0;
-        width: fit-content;
-        display: flex;
-        align-items: center;
-        height: 75px;
-        
-        .discount {
-            border-radius: 5px;
-            background: $blue;
-            width: 75px;
-            color: $white;
-            font-weight: $bold;
-            padding: 5px 15px;
-            font-size: 16px;
-            margin-top: 15px;
-        }
-    }
-
-    .card-badge::after {
-        content: "";
-        width: 60px;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        right: -1px;
+    .discount {
+        border-radius: 5px;
         background: $blue;
-        clip-path: polygon(0 0, 100% 0, 100% 100%);
-        border-radius: 0 10px 0 0;
-        z-index: -1;
+        width: 75px;
+        color: $white;
+        font-weight: bold;
+        padding: 5px 15px;
+        font-size: 16px;
+        margin-top: 20%;
     }
+}
+
+.card-badge::after {
+    content: "";
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -1px;
+    background: $blue;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+    border-radius: 0 10px 0 0;
+    z-index: -1;
 }
