@@ -1,3 +1,4 @@
+@import "~bootstrap/dist/css/bootstrap.css";
 @import "./variables.scss";
 @import "./app.scss";
 @import "./categories-list.scss";
@@ -20,7 +21,6 @@
 @import "./footer/left-side.scss";
 @import "./footer/right-side.scss";
 
-@import "~bootstrap/dist/css/bootstrap.css";
 
 html, body {
     overflow-x: hidden;

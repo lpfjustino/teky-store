@@ -1,10 +1,8 @@
 import React from 'react';
-import ProductCard from './products/ProductCard';
-import {Row, Col} from 'react-bootstrap';
 import ProductsList from './products/ProductsList';
 
 function Recommendations(props) {
-  const products = [ {}, {}, {}, {} ];
+  const products = [{}, {}, {}, {}];
 
   return (
     <div className="recommendations-container">

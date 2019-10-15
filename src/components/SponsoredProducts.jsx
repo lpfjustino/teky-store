@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {Carousel, Row, Col} from 'react-bootstrap';
+import { Carousel, Row, Col } from 'react-bootstrap';
 
-function SponsorHeader({index}) {
+function SponsorHeader({ index }) {
   return (
     <div className="sponsor-header">
       <span>DESTAQUE |</span>
@@ -11,7 +11,7 @@ function SponsorHeader({index}) {
   );
 }
 
-function MultiItemSponsor({items, index}) {
+function MultiItemSponsor({ items, index }) {
   return (
     <div className="slider-container sponsor-slider sponsored-item sponsored-item-multi">
       <SponsorHeader index={index} />
@@ -19,10 +19,10 @@ function MultiItemSponsor({items, index}) {
         {items &&
           items.map((item, i) => (
             <Carousel.Item key={i}>
-              <span key={i} className="item-header">
+              <span className="item-header">
                 {item.header}
               </span>
-              <span key={i} className="item-content">
+              <span className="item-content">
                 {item.content}
               </span>
             </Carousel.Item>
@@ -32,7 +32,7 @@ function MultiItemSponsor({items, index}) {
   );
 }
 
-function SingleItemSponsor({item, index}) {
+function SingleItemSponsor({ item, index }) {
   return (
     (item && (
       <div className="sponsored-item sponsored-item sponsored-item-single">
@@ -52,16 +52,16 @@ function SponsoredProducts(props) {
     <div className="sponsored-products">
       <div className="header">PRODUTOS EM DESTAQUE</div>
       <Row className="products-list">
-        {props.items.map(item =>
+        {props.items.map((item, i) =>
           item.multi ? (
-            <Col md={4} xs={12} className="sponsored-item-container">
+            <Col md={4} xs={12} className="sponsored-item-container" key={i}>
               <MultiItemSponsor items={item.products} index={item.index} />
             </Col>
           ) : (
-            <Col md={4} xs={12} className="sponsored-item-container">
-              <SingleItemSponsor item={item} index={item.index} />
-            </Col>
-          )
+              <Col md={4} xs={12} className="sponsored-item-container" key={i}>
+                <SingleItemSponsor item={item} index={item.index} />
+              </Col>
+            )
         )}
       </Row>
     </div>
@@ -70,7 +70,6 @@ function SponsoredProducts(props) {
 
 SponsoredProducts.propTypes = {
   items: PropTypes.array,
-  index: PropTypes.string.isRequired,
 };
 
 SingleItemSponsor.propTypes = {

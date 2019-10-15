@@ -1,5 +1,5 @@
 import React from 'react';
-import {Row, Col, Breadcrumb} from 'react-bootstrap';
+import { Row, Col, Breadcrumb } from 'react-bootstrap';
 
 import boleto from '../../static/icons/footer/payment/pgt_Boleto.svg';
 import Recommendations from '../Recommendations';
@@ -57,7 +57,7 @@ function ProductDetails(props) {
           </div>
           <div className="boleto-section">
             <div className="image-container">
-              <img src={boleto} />
+              <img src={boleto} alt="boleto" />
             </div>
             <div>
               <div className="price">R$0.000,00</div>

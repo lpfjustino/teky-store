@@ -5,27 +5,62 @@
     background: $white;
     border-bottom: 1px solid $light-gray;
 
+    .category-item:hover {
+        .dropdown-menu {
+            display: block;
+        }
+    }
+
     .category-item {
         display: flex;
         flex-direction: column;
         padding: 10px 0;
-
+        width: 100%;
+        
+        .dropdown-toggle,
+        .dropdown-toggle:active,
+        .dropdown-toggle:focus {
+            background: none;
+            border: 0;
+            width: 100%;
+            box-shadow: unset;
+            outline: none;
+            padding: 0;
+        }
+        
         .logo-container {
             display: flex;
+            flex-direction: column;
             justify-content: center;
+            outline: none;
+            height:100%;
 
-            img {
+            img.logo {
                 width: 35px;
                 height: 35px;
+                margin: auto;
+            }
+
+            .item-label {
+                margin-top: 5px;
+                text-align: center;
+                color: $gray;
+                font-size: 1rem;
+                line-height: 1rem;
+                font-weight: bold;
+                height: 100%;
+                display: block;
+            }
+
+            .dropdown-menu {
+                border: $gray;
+
+                .dropdown-item {
+                    color: $gray;
+                    font-size: 1.4rem;
+                }
             }
         }
-        .item-label {
-            margin-top: 5px;
-            text-align: center;
-            color: $gray;
-            font-size: 1rem;
-            line-height: 1rem;
-            font-weight: bold;
-        }
+
     }
 }
