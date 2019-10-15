@@ -1,5 +1,5 @@
 import React from 'react';
-import {Breadcrumb} from 'react-bootstrap';
+import { Breadcrumb } from 'react-bootstrap';
 
 function BreadcrumbSection(props) {
   return (
@@ -13,7 +13,7 @@ function BreadcrumbSection(props) {
         <div className="sort-label">Ordenação</div>
         <div className="select-container">
           <select>
-            <option value="" disabled selected>
+            <option value="" disabled>
               Escolha aqui
             </option>
           </select>
