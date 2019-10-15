@@ -1,5 +1,5 @@
-import React from 'react';
-import logo from '../../static/icons/Teky_LogoNoIcon_Mono_white.svg';
+import React from "react";
+import logo from "../../static/icons/Teky_LogoNoIcon_Mono_white.svg";
 
 function Login() {
   return (

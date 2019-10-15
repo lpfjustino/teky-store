@@ -1,9 +1,9 @@
-import React from 'react';
-import {Row, Col} from 'react-bootstrap';
-import appleStore from '../../static/icons/footer/btn_AppleStore.svg';
-import googlePlay from '../../static/icons/footer/btn_GooglePlay.svg';
-import windowsStore from '../../static/icons/footer/btn_WindowsStore.svg';
-import logoApp from '../../static/icons/footer/Teky_LogoApp_Color.svg';
+import React from "react";
+import { Row, Col } from "react-bootstrap";
+import appleStore from "../../static/icons/footer/btn_AppleStore.svg";
+import googlePlay from "../../static/icons/footer/btn_GooglePlay.svg";
+import windowsStore from "../../static/icons/footer/btn_WindowsStore.svg";
+import logoApp from "../../static/icons/footer/Teky_LogoApp_Color.svg";
 
 function LeftSide(props) {
   return (

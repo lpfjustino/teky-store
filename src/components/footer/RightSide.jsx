@@ -1,24 +1,24 @@
-import React from 'react';
-import {Row, Col} from 'react-bootstrap';
-import {NavLink} from 'react-router-dom';
+import React from "react";
+import { Row, Col } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
-import visa from '../../static/icons/footer/payment/pgt_Visa.svg';
-import mastercard from '../../static/icons/footer/payment/pgt_Mastercard.svg';
-import americanExpress from '../../static/icons/footer/payment/pgt_AmericanExpress.svg';
-import elo from '../../static/icons/footer/payment/pgt_Elo.svg';
-import maestro from '../../static/icons/footer/payment/pgt_Maestro.svg';
-import dinners from '../../static/icons/footer/payment/pgt_Dinners.svg';
-import hipercard from '../../static/icons/footer/payment/pgt_Hipercard.svg';
-import boleto from '../../static/icons/footer/payment/pgt_Boleto.svg';
+import visa from "../../static/icons/footer/payment/pgt_Visa.svg";
+import mastercard from "../../static/icons/footer/payment/pgt_Mastercard.svg";
+import americanExpress from "../../static/icons/footer/payment/pgt_AmericanExpress.svg";
+import elo from "../../static/icons/footer/payment/pgt_Elo.svg";
+import maestro from "../../static/icons/footer/payment/pgt_Maestro.svg";
+import dinners from "../../static/icons/footer/payment/pgt_Dinners.svg";
+import hipercard from "../../static/icons/footer/payment/pgt_Hipercard.svg";
+import boleto from "../../static/icons/footer/payment/pgt_Boleto.svg";
 
-import facebook from '../../static/icons/footer/social/btn_Social_Facebook.svg';
-import instagram from '../../static/icons/footer/social/btn_Social_Instagram.svg';
-import whatsapp from '../../static/icons/footer/social/btn_Social_Whatsapp.svg';
-import youtube from '../../static/icons/footer/social/btn_Social_Youtube.svg';
+import facebook from "../../static/icons/footer/social/btn_Social_Facebook.svg";
+import instagram from "../../static/icons/footer/social/btn_Social_Instagram.svg";
+import whatsapp from "../../static/icons/footer/social/btn_Social_Whatsapp.svg";
+import youtube from "../../static/icons/footer/social/btn_Social_Youtube.svg";
 
-import letsEncryptSquare from '../../static/icons/footer/security/sec_LetsEncrypt_Square.svg';
-import pCIDSS from '../../static/icons/footer/security/sec_PCI_DSS.svg';
-import siteBlindado from '../../static/icons/footer/security/sec_SiteBlindado.svg';
+import letsEncryptSquare from "../../static/icons/footer/security/sec_LetsEncrypt_Square.svg";
+import pCIDSS from "../../static/icons/footer/security/sec_PCI_DSS.svg";
+import siteBlindado from "../../static/icons/footer/security/sec_SiteBlindado.svg";
 
 function RightSide(props) {
   return (

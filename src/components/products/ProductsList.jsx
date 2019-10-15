@@ -1,7 +1,7 @@
-import React from 'react';
-import { Row, Col } from 'react-bootstrap';
-import PropTypes from 'prop-types';
-import ProductCard from './ProductCard';
+import React from "react";
+import { Row, Col } from "react-bootstrap";
+import PropTypes from "prop-types";
+import ProductCard from "./ProductCard";
 
 const getBootstrapConfig = (itemsPerRow = 4, mobileItemsPerRow = 1) => {
   return {

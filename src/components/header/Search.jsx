@@ -1,6 +1,6 @@
-import React from 'react';
-import gear from '../../static/icons/ic_teky_sniper_gray.svg';
-import search from '../../static/icons/ic_search.svg';
+import React from "react";
+import gear from "../../static/icons/ic_teky_sniper_gray.svg";
+import search from "../../static/icons/ic_search.svg";
 
 function Search(props) {
   return (

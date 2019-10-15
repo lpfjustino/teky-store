@@ -1,9 +1,9 @@
-import React from 'react';
-import Filters from '../Filters';
-import {Row, Col} from 'react-bootstrap';
-import ProductsList from '../products/ProductsList';
-import BreadcrumbSection from '../BreadcrumbSection';
-import SponsoredProducts from '../SponsoredProducts';
+import React from "react";
+import Filters from "../Filters";
+import { Row, Col } from "react-bootstrap";
+import ProductsList from "../products/ProductsList";
+import BreadcrumbSection from "../BreadcrumbSection";
+import SponsoredProducts from "../SponsoredProducts";
 
 function Products() {
   const products = [{}, {}, {}, {}, {}, {}];
@@ -13,28 +13,28 @@ function Products() {
       products: [
         {
           content:
-            'BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS',
+            "BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS",
         },
         {
           content:
-            'BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS',
+            "BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS",
         },
         {
           content:
-            'BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS',
+            "BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS",
         },
       ],
-      index: '01',
+      index: "01",
     },
     {
-      header: 'DESTAQUE PATROCINADO',
-      content: 'Opção do lojista comprar destaque p/ seus produtos',
-      index: '01',
+      header: "DESTAQUE PATROCINADO",
+      content: "Opção do lojista comprar destaque p/ seus produtos",
+      index: "01",
     },
     {
-      header: 'DESTAQUE PATROCINADO',
-      content: 'Opção do lojista comprar destaque p/ seus produtos',
-      index: '02',
+      header: "DESTAQUE PATROCINADO",
+      content: "Opção do lojista comprar destaque p/ seus produtos",
+      index: "02",
     },
   ];
 

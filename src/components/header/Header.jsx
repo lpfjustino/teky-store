@@ -1,12 +1,12 @@
-import React from 'react';
-import {Row, Col} from 'react-bootstrap';
-import {NavLink} from 'react-router-dom';
-import Search from './Search';
-import Login from './Login';
-import Partnership from './Partnership';
-import Orders from './Orders';
-import Cart from './Cart';
-import logo from '../../static/icons/Teky_LogoIcon_Color.svg';
+import React from "react";
+import { Row, Col } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
+import Search from "./Search";
+import Login from "./Login";
+import Partnership from "./Partnership";
+import Orders from "./Orders";
+import Cart from "./Cart";
+import logo from "../../static/icons/Teky_LogoIcon_Color.svg";
 
 function Header() {
   return (

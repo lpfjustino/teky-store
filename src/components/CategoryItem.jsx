@@ -1,13 +1,13 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { NavLink } from 'react-router-dom';
-import { Dropdown } from 'react-bootstrap';
+import React from "react";
+import PropTypes from "prop-types";
+import { NavLink } from "react-router-dom";
+import { Dropdown } from "react-bootstrap";
 
 function CategoryItem(props) {
   return (
     <div className="category-item">
       <NavLink to="/products">
-        <div className="logo-container dropdown" >
+        <div className="logo-container dropdown">
           <img className="logo" src={props.icon} alt={props.text} />
           <div className="item-label">{props.text}</div>
           <Dropdown>

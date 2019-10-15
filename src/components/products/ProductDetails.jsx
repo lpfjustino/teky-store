@@ -1,9 +1,9 @@
-import React from 'react';
-import { Row, Col, Breadcrumb } from 'react-bootstrap';
+import React from "react";
+import { Row, Col, Breadcrumb } from "react-bootstrap";
 
-import boleto from '../../static/icons/footer/payment/pgt_Boleto.svg';
-import Recommendations from '../Recommendations';
-import Specifications from '../products/Specifications';
+import boleto from "../../static/icons/footer/payment/pgt_Boleto.svg";
+import Recommendations from "../Recommendations";
+import Specifications from "../products/Specifications";
 
 function ProductDetails(props) {
   return (

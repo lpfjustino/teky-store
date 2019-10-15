@@ -1,7 +1,7 @@
-import React from 'react';
-import {Row, Col} from 'react-bootstrap';
-import LeftSide from './LeftSide';
-import RightSide from './RightSide';
+import React from "react";
+import { Row, Col } from "react-bootstrap";
+import LeftSide from "./LeftSide";
+import RightSide from "./RightSide";
 
 function Footer(props) {
   return (

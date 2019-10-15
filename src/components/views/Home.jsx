@@ -1,7 +1,7 @@
-import React from 'react';
-import BannerSlider from '../BannerSlider';
-import SponsoredProducts from '../SponsoredProducts';
-import WeeklySales from '../WeeklySales';
+import React from "react";
+import BannerSlider from "../BannerSlider";
+import SponsoredProducts from "../SponsoredProducts";
+import WeeklySales from "../WeeklySales";
 
 function Home(props) {
   const products = [
@@ -10,28 +10,28 @@ function Home(props) {
       products: [
         {
           content:
-            'BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS',
+            "BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS",
         },
         {
           content:
-            'BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS',
+            "BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS",
         },
         {
           content:
-            'BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS',
+            "BANNER DINÂMICO COM TRANSIÇÕES ENTRE OS MAIS VENDIDOS CATEGORIZADOS",
         },
       ],
-      index: '01',
+      index: "01",
     },
     {
-      header: 'DESTAQUE PATROCINADO',
-      content: 'Opção do lojista comprar destaque p/ seus produtos',
-      index: '01',
+      header: "DESTAQUE PATROCINADO",
+      content: "Opção do lojista comprar destaque p/ seus produtos",
+      index: "01",
     },
     {
-      header: 'DESTAQUE PATROCINADO',
-      content: 'Opção do lojista comprar destaque p/ seus produtos',
-      index: '02',
+      header: "DESTAQUE PATROCINADO",
+      content: "Opção do lojista comprar destaque p/ seus produtos",
+      index: "02",
     },
   ];
 

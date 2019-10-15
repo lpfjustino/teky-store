@@ -1,5 +1,5 @@
-import React from 'react';
-import ProductsList from './products/ProductsList';
+import React from "react";
+import ProductsList from "./products/ProductsList";
 
 function Recommendations(props) {
   const products = [{}, {}, {}, {}];

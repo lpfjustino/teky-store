@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import { Carousel, Row, Col } from 'react-bootstrap';
+import React from "react";
+import PropTypes from "prop-types";
+import { Carousel, Row, Col } from "react-bootstrap";
 
 function SponsorHeader({ index }) {
   return (
@@ -19,12 +19,8 @@ function MultiItemSponsor({ items, index }) {
         {items &&
           items.map((item, i) => (
             <Carousel.Item key={i}>
-              <span className="item-header">
-                {item.header}
-              </span>
-              <span className="item-content">
-                {item.content}
-              </span>
+              <span className="item-header">{item.header}</span>
+              <span className="item-content">{item.content}</span>
             </Carousel.Item>
           ))}
       </Carousel>
@@ -58,10 +54,10 @@ function SponsoredProducts(props) {
               <MultiItemSponsor items={item.products} index={item.index} />
             </Col>
           ) : (
-              <Col md={4} xs={12} className="sponsored-item-container" key={i}>
-                <SingleItemSponsor item={item} index={item.index} />
-              </Col>
-            )
+            <Col md={4} xs={12} className="sponsored-item-container" key={i}>
+              <SingleItemSponsor item={item} index={item.index} />
+            </Col>
+          ),
         )}
       </Row>
     </div>

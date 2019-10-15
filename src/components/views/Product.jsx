@@ -1,5 +1,5 @@
-import React from 'react';
-import ProductDetails from '../products/ProductDetails';
+import React from "react";
+import ProductDetails from "../products/ProductDetails";
 
 function Product(props) {
   return (

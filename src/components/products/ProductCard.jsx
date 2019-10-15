@@ -1,5 +1,5 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function ProductCard(props) {
   return (
@@ -14,7 +14,7 @@ function ProductCard(props) {
           </Link>
         </div>
         <div className="title">
-          Lorem ipsum dolor sit amet elit, consectetur adipiscing elit.{' '}
+          Lorem ipsum dolor sit amet elit, consectetur adipiscing elit.{" "}
         </div>
         <div className="old-price">R$ 00.000,00</div>
         <div className="current-price">R$ 0.000,00</div>

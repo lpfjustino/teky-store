@@ -1,19 +1,19 @@
-import React from 'react';
-import CategoryItem from './CategoryItem';
-import {Row, Col} from 'react-bootstrap';
+import React from "react";
+import CategoryItem from "./CategoryItem";
+import { Row, Col } from "react-bootstrap";
 
-import menu from '../static/icons/categories/ic_menu.svg';
-import ferramentas from '../static/icons/categories/ic_produtos_ferramentas.svg';
-import eletricos from '../static/icons/categories/ic_produtos_eletricos.svg';
-import motores from '../static/icons/categories/ic_produtos_motores.svg';
-import hidraulicos from '../static/icons/categories/ic_produtos_hidraulicos.svg';
-import epi from '../static/icons/categories/ic_produtos_epi.svg';
-import abrasivos from '../static/icons/categories/ic_produtos_abrasivos.svg';
-import fixacao from '../static/icons/categories/ic_produtos_fixacao.svg';
-import correias from '../static/icons/categories/ic_produtos_correias.svg';
-import oleos from '../static/icons/categories/ic_produtos_oleos.svg';
-import rolamentos from '../static/icons/categories/ic_produtos_rolamentos.svg';
-import apps from '../static/icons/categories/ic_Apps.svg';
+import menu from "../static/icons/categories/ic_menu.svg";
+import ferramentas from "../static/icons/categories/ic_produtos_ferramentas.svg";
+import eletricos from "../static/icons/categories/ic_produtos_eletricos.svg";
+import motores from "../static/icons/categories/ic_produtos_motores.svg";
+import hidraulicos from "../static/icons/categories/ic_produtos_hidraulicos.svg";
+import epi from "../static/icons/categories/ic_produtos_epi.svg";
+import abrasivos from "../static/icons/categories/ic_produtos_abrasivos.svg";
+import fixacao from "../static/icons/categories/ic_produtos_fixacao.svg";
+import correias from "../static/icons/categories/ic_produtos_correias.svg";
+import oleos from "../static/icons/categories/ic_produtos_oleos.svg";
+import rolamentos from "../static/icons/categories/ic_produtos_rolamentos.svg";
+import apps from "../static/icons/categories/ic_Apps.svg";
 
 const Categories = () => {
   return (

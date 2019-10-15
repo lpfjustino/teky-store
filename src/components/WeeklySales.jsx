@@ -1,5 +1,5 @@
-import React from 'react';
-import ProductsList from './products/ProductsList';
+import React from "react";
+import ProductsList from "./products/ProductsList";
 
 function WeeklySales(props) {
   const weekSales = [{}, {}, {}, {}, {}, {}, {}, {}];
