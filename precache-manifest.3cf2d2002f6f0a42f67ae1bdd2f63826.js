@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b88a41008c31c7499a3b8676089e16b0",
+    "revision": "d559dc8b19846299a95ef4fb6d9d7b4e",
     "url": "/teky-store/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/teky-store/static/css/2.3ad05019.chunk.css"
   },
   {
-    "revision": "6a14b06d2cd1ca13a170",
-    "url": "/teky-store/static/css/main.2bce0062.chunk.css"
+    "revision": "c86f18ab32aa33dd6815",
+    "url": "/teky-store/static/css/main.7a00baad.chunk.css"
   },
   {
     "revision": "00ac8284ddaf3eb053ee",
     "url": "/teky-store/static/js/2.416704ab.chunk.js"
   },
   {
-    "revision": "6a14b06d2cd1ca13a170",
+    "revision": "c86f18ab32aa33dd6815",
     "url": "/teky-store/static/js/main.51a032a8.chunk.js"
   },
   {
