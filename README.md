@@ -8,3 +8,7 @@ This is a showcase of a frontend project to demonstrate developing skills. It's 
 
 - Install the dependencies: `npm i`
 - Run locally: `npm start`
+
+#### Demo
+
+It's currently hosted in [this link](http://lpfjustino.github.io/teky-store) for demonstration purposes.
